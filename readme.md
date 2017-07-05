@@ -5,6 +5,10 @@ A presentation given at the PsyPAG meeting entitled *Alternative approaches to
 inferential statistics: Likelihoods and Bayesian analysis in Social Science
 research*, [University of Kent], July 8, 2017.
 
+## Slides
+
+The pdf of the slides are available [here](https://github.com/lawsofthought/psypag-kent-2017/raw/master/slides/introducing_bayesian_inference.pdf)
+
 ## Demos
 
 The slides contain links to the following online demos:
