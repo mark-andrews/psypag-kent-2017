@@ -2,6 +2,11 @@ library(shiny)
 library(ggplot2)
 library(latex2exp)
 
+url.link <- paste("All source code for this demo can be found on",
+                  a("GitHub.",
+                    href="https://github.com/lawsofthought/psypag-kent-2017",
+                    target='_blank'))
+
 # Define UI for application that draws a histogram
 ui <- fluidPage(
    
@@ -84,7 +89,7 @@ server <- function(input, output, session) {
                       results$conf.int[1],
                       results$conf.int[2])
     
-    HTML(paste(stmt.1, stmt.2, sep = '<br/>'))
+    HTML(paste(stmt.1, stmt.2, url.link, sep = '<br/>'))
   })
   
    output$distPlot <- renderPlot({

@@ -50,7 +50,11 @@ ui <- fluidPage(
                and the total number of times a Heads is the observed outcome. 
                Check boxes to choose which likelihood intervals to draw. 
                The likelihood interval gives the set of values of the bias whose likelihoods are within the specified factor
-               of the maximum likelihood value."),
+               of the maximum likelihood value.",
+               "All source code for this demo can be found on",
+               a("GitHub.",
+                 href="https://github.com/lawsofthought/psypag-kent-2017",
+                 target='_blank')),
       sliderInput("N",
                   "Number of coin flips:",
                   min = 1,

@@ -2,6 +2,11 @@ library(shiny)
 library(ggplot2)
 library(latex2exp)
 
+url.link <- paste("All source code for this demo can be found on",
+                  a("GitHub.",
+                    href="https://github.com/lawsofthought/psypag-kent-2017",
+                    target='_blank'))
+
 # Load some functions
 source('utils.R')
 
@@ -103,7 +108,7 @@ server <- function(input, output) {
     
     HTML(paste('<ul>', 
                paste(stmt.1, stmt.2, stmt.4, stmt.3, sep = '<br/>'),
-               '</ul>'))
+               paste('</ul>', url.link)))
     
   })
   
