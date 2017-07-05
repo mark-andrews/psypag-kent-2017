@@ -7,7 +7,7 @@ research*, [University of Kent], July 8, 2017.
 
 ## Slides
 
-The pdf of the slides is available [here](https://github.com/lawsofthought/psypag-kent-2017/blob/master/slides/introducing_bayesian_inference.pdf)
+The pdf of the slides is available [here](https://github.com/lawsofthought/psypag-kent-2017/blob/master/slides/introducing_bayesian_inference.pdf).
 
 ## Demos
 
